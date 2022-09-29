@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+
+:root{
+--Red: hsl(1, 90%, 64%);
+--Blue: hsl(219, 85%, 26%);
+--White: hsl(0, 0%, 100%);
+--VeryLightGrayishBlue: hsl(210, 60%, 98%);
+--LightGrayishBlue1: hsl(211, 68%, 94%);
+--LightGrayishBlue2: hsl(205, 33%, 90%);
+--GrayishBlue: hsl(219, 14%, 63%);
+--DarkGrayishBlue: hsl(219, 12%, 42%);
+--VeryDarkBlue: hsl(224, 21%, 14%);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.6rem;
+ 
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color:var(--VeryLightGrayishBlue) ;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+}
+
+.card{
+    border-radius: 1.3rem;
+    background-color: var(--White);
+    max-width: 600px;
+    padding: 1.5em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.01);
+}
+.cardTop{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.cardTop>p>span{
+    margin-left: .4em;
+    padding: .1em .5em;
+    border-radius: .2em;
+    background-color: var(--Blue);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.cardTopRight{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.cardTopLeft{
+    color: var(--DarkGrayishBlue);
+}
+
+.cardContent{
+   
+margin-bottom: 8px;
+display: flex;
+gap: 2rem;
+background-color: var(--VeryLightGrayishBlue);
+padding: 1.5rem;
+border-radius: .5rem;
+}
+
+.avatar{
+
+
+}
+.avatar>img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.text{
+font-size: 1.3rem;
+}
+.text>span{
+font-weight: bold;
+}
+
+.cardContentText>p{
+    font-size: 1.1rem;
+    margin-top: 6px;
+    color: var(--GrayishBlue);
+}
