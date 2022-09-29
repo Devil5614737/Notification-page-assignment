@@ -101,3 +101,11 @@ font-weight: bold;
     margin-top: 6px;
     color: var(--GrayishBlue);
 }
+.notificationDot{
+    background-color: var(--Red);
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 5px;
+}
