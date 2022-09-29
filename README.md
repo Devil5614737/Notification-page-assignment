@@ -54,6 +54,6 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub](https://github.com/Devil5614737/Notification-page-assignment)
+<!-- - [GitHub](https://github.com/Devil5614737/Notification-page-assignment) -->
 - [Live Demo](https://darling-madeleine-34a2b3.netlify.app/)
 
